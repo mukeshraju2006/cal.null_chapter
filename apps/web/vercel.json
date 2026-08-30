@@ -28,10 +28,5 @@
       "path": "/api/cron/selected-calendars",
       "schedule": "*/5 * * * *"
     }
-  ],
-  "functions": {
-    "app/api/**/*.ts": {
-      "maxDuration": 60
-    }
-  }
+  ]
 }
