@@ -29,5 +29,9 @@
       "schedule": "*/5 * * * *"
     }
   ],
-  "functions": {}
+  "functions": {
+    "app/api/**/*.ts": {
+      "maxDuration": 60
+    }
+  }
 }
