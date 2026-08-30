@@ -1,8 +1,9 @@
 {
-  "buildCommand": "yarn build",
+  "buildCommand": "cd ../.. && yarn install --immutable && yarn prisma generate && yarn build",
   "outputDirectory": ".next",
   "framework": "nextjs",
-  "installCommand": "yarn install",
+  "installCommand": "cd ../.. && yarn install --immutable",
+  "rootDirectory": "apps/web",
   "env": {
     "NEXT_PUBLIC_APP_NAME": "cal.null_chapter"
   }
