@@ -1,7 +1,7 @@
 {
-    "name": "Cal.diy",
-    "short_name": "Cal.diy",
-    "description": "Scheduling infrastructure for absolutely everyone.",
+    "name": "cal.null_chapter",
+    "short_name": "cal.null_chapter",
+    "description": "Scheduling platform for Null Chapter — cal.null_chapter",
     "icons": [
         {
             "src": "/api/logo?type=android-chrome-192",

@@ -156,7 +156,7 @@ describe("CalendarSyncService", () => {
   });
 
   describe("handleEvents", () => {
-    test("should process only Cal.diy events", async () => {
+    test("should process only Null Chapter VITAP events", async () => {
       const events = [mockCalComEvent, mockNonCalComEvent, mockCancelledEvent];
 
       mockBookingRepository.findBookingByUidWithEventType = vi
@@ -175,7 +175,7 @@ describe("CalendarSyncService", () => {
       });
     });
 
-    test("should return early when no Cal.diy events", async () => {
+    test("should return early when no Null Chapter VITAP events", async () => {
       const events = [mockNonCalComEvent];
 
       await service.handleEvents(mockSelectedCalendar, events);
@@ -204,10 +204,10 @@ describe("CalendarSyncService", () => {
       });
     });
 
-    test("should handle default Cal.diy iCalUID", async () => {
+    test("should handle default Null Chapter VITAP iCalUID", async () => {
       const eventWithCalDiyUID: CalendarSubscriptionEventItem = {
         ...mockCalComEvent,
-        iCalUID: "test-booking-uid@Cal.diy",
+        iCalUID: "test-booking-uid@Null Chapter VITAP",
       };
 
       mockBookingRepository.findBookingByUidWithEventType = vi.fn().mockResolvedValue(mockBooking);

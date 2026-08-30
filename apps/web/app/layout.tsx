@@ -66,12 +66,11 @@ export const metadata = {
   manifest: "/site.webmanifest",
   other: {
     "application-TileColor": "#ff0000",
-  },
-  twitter: {
-    site: "@calcom",
-    creator: "@calcom",
-    card: "summary_large_image",
-  },
+  },    twitter: {
+      site: "@nullchapter",
+      creator: "@nullchapter",
+      card: "summary_large_image",
+    },
   robots: {
     index: true,
     follow: true,

@@ -1,0 +1,9 @@
+{
+  "buildCommand": "yarn build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "installCommand": "yarn install",
+  "env": {
+    "NEXT_PUBLIC_APP_NAME": "cal.null_chapter"
+  }
+}

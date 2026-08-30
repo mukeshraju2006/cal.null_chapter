@@ -375,10 +375,10 @@ export default function Signup({
       ) : null}
       <div
         className={classNames(
-          "light flex min-h-screen w-full flex-col items-center justify-center bg-cal-muted [--cal-brand:#111827] 2xl:bg-default dark:[--cal-brand:#FFFFFF]",
+          "light flex min-h-screen w-full flex-col items-center justify-center bg-cal-muted [--cal-brand:#23B0FF] 2xl:bg-default dark:[--cal-brand:#23B0FF]",
           "[--cal-brand-subtle:#9CA3AF]",
-          "[--cal-brand-text:#FFFFFF] dark:[--cal-brand-text:#000000]",
-          "[--cal-brand-emphasis:#101010] dark:[--cal-brand-emphasis:#e1e1e1]"
+          "[--cal-brand-text:#FFFFFF] dark:[--cal-brand-text:#FFFFFF]",
+          "[--cal-brand-emphasis:#1a8acc] dark:[--cal-brand-emphasis:#1a8acc]"
         )}>
         <div className="grid w-full max-w-[1440px] grid-cols-1 grid-rows-1 overflow-hidden bg-cal-muted lg:grid-cols-2 2xl:rounded-[20px] 2xl:border 2xl:border-subtle 2xl:py-6">
           {/* Left side */}
@@ -779,7 +779,7 @@ export default function Signup({
                     <img
                       src="/product-cards/product-of-the-day.svg"
                       className="h-[34px] w-full dark:invert"
-                      alt="Cal.diy was Product of the Day at ProductHunt"
+                      alt="Null Chapter VITAP was Product of the Day at ProductHunt"
                     />
                   </div>
                   <div>
@@ -787,7 +787,7 @@ export default function Signup({
                     <img
                       src="/product-cards/product-of-the-week.svg"
                       className="h-[34px] w-full dark:invert"
-                      alt="Cal.diy was Product of the Week at ProductHunt"
+                      alt="Null Chapter VITAP was Product of the Week at ProductHunt"
                     />
                   </div>
                   <div>
@@ -795,7 +795,7 @@ export default function Signup({
                     <img
                       src="/product-cards/product-of-the-month.svg"
                       className="h-[34px] w-full dark:invert"
-                      alt="Cal.diy was Product of the Month at ProductHunt"
+                      alt="Null Chapter VITAP was Product of the Month at ProductHunt"
                     />
                   </div>
                 </div>
@@ -828,12 +828,12 @@ export default function Signup({
               </>
             )}
             <div className="hidden rounded-tl-2xl rounded-br-none rounded-bl-2xl border border-default border-r-0 border-dashed bg-black/3 lg:block lg:py-[6px] lg:pl-[6px] dark:bg-white/5">
-              <img className="block dark:hidden" src="/mock-event-type-list.svg" alt="Cal.diy Booking Page" />
+              <img className="block dark:hidden" src="/mock-event-type-list.svg" alt="Null Chapter VITAP Booking Page" />
               {/* eslint-disable @next/next/no-img-element */}
               <img
                 className="hidden dark:block"
                 src="/mock-event-type-list-dark.svg"
-                alt="Cal.diy Booking Page"
+                alt="Null Chapter VITAP Booking Page"
               />
             </div>
             <div className="mt-8 mr-12 hidden h-full w-full grid-cols-3 gap-4 overflow-hidden lg:grid">

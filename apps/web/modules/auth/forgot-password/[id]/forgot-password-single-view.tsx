@@ -116,8 +116,8 @@ function PasswordResetForm({
       form={formMethods}
       style={
         {
-          "--cal-brand": "#111827",
-          "--cal-brand-emphasis": "#101010",
+          "--cal-brand": "#23B0FF",
+          "--cal-brand-emphasis": "#1a8acc",
           "--cal-brand-text": "white",
           "--cal-brand-subtle": "#9CA3AF",
         } as CSSProperties

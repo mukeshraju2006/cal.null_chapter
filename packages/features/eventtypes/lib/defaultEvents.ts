@@ -48,7 +48,7 @@ const user: User & { credentials: CredentialPayload[] } = {
   name: "John doe",
   destinationCalendar: null,
   hideBranding: true,
-  brandColor: "#797979",
+  brandColor: "#23B0FF",
   darkBrandColor: "#efefef",
   allowDynamicBooking: true,
   timeFormat: 12,

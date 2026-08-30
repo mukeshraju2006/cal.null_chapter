@@ -150,11 +150,11 @@ const OnboardingPage = (props: PageProps) => {
   return (
     <div
       className={classNames(
-        "text-emphasis min-h-screen [--cal-brand:#111827] dark:[--cal-brand:#FFFFFF]",
-        "[--cal-brand-emphasis:#101010] dark:[--cal-brand-emphasis:#e1e1e1]",
+        "text-emphasis min-h-screen [--cal-brand:#23B0FF] dark:[--cal-brand:#23B0FF]",
+        "[--cal-brand-emphasis:#1a8acc] dark:[--cal-brand-emphasis:#1a8acc]",
         "[--cal-brand-subtle:#9CA3AF]",
-        "[--cal-brand-text:#FFFFFF]  dark:[--cal-brand-text:#000000]",
-        "[--cal-brand-accent:#FFFFFF] dark:[--cal-brand-accent:#000000]"
+        "[--cal-brand-text:#FFFFFF]  dark:[--cal-brand-text:#FFFFFF]",
+        "[--cal-brand-accent:#FFFFFF] dark:[--cal-brand-accent:#FFFFFF]"
       )}
       data-testid="onboarding"
       key={pathname}>
